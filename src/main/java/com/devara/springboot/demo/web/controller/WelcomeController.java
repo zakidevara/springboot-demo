@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-@RequestMapping("/welcome")
+@RequestMapping("/website/welcome")
 public class WelcomeController {
 
   @GetMapping(produces = MediaType.TEXT_HTML_VALUE)

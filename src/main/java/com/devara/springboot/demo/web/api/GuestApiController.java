@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/api/guests")
+@RequestMapping("/guests")
 public class GuestApiController {
   private final GuestRepository guestRepository;
 
