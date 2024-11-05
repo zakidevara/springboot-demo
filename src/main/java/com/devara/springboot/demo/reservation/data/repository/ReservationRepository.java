@@ -1,6 +1,6 @@
-package com.devara.springboot.demo.data.repository;
+package com.devara.springboot.demo.reservation.data.repository;
 
-import com.devara.springboot.demo.data.entity.Reservation;
+import com.devara.springboot.demo.reservation.data.entity.Reservation;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.sql.Date;

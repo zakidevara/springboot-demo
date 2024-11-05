@@ -1,4 +1,4 @@
-package com.devara.springboot.demo.model;
+package com.devara.springboot.demo.roomreservation.model;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,11 +1,13 @@
-package com.devara.springboot.demo.data.entity;
+package com.devara.springboot.demo.room.data.entity;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @Entity
 @Table(name="rooms")
 @Data
+@AllArgsConstructor
 public class Room {
   @Id
   @Column(name = "room_id")
